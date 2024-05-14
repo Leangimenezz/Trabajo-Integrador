@@ -13,7 +13,7 @@ Nombre de la empresa: Red Bull
 
 ### Productos e imagenes que voy a utilizar para diseñar el sitio web 
 
-1. Producto: ![Lata de red bull ](image.png)
+1. Producto: 
 
 2. Paleta de colores: https://color.adobe.com/es/Red-Bull-web-color-theme-7860123/ 
 
