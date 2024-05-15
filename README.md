@@ -18,6 +18,5 @@ Nombre de la empresa: Red Bull
 2. Paleta de colores: https://color.adobe.com/es/Red-Bull-web-color-theme-7860123/ 
 
 #### Wireframe 
-! ![Pagina principal](image-4.png)
 
-1. 
+! [Pagina Principal](https://www.canva.com/design/DAGFPxOC76U/oomUPEuLNTFJPi2e4lSUIg/edit?utm_content=DAGFPxOC76U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
