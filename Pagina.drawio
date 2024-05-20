@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T02:28:04.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="ZsZ7U_cGLhPnw6bL5XF_" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T22:07:09.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="N_kyLdaWEGEp3xCjzkxJ" version="24.4.4" type="github">
   <diagram name="Page-1" id="2cc2dc42-3aac-f2a9-1cec-7a8b7cbee084">
-    <mxGraphModel dx="2757" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="2625" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,39 +9,6 @@
         </mxCell>
         <mxCell id="7026571954dc6520-3" value="https://www.default.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="7026571954dc6520-1" vertex="1">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-11" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://img.redbull.com/redbullcom/static/redbullcom-logo_double-with-text.svg;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="150" width="437.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-33" value="&lt;div&gt;&lt;span style=&quot;font-size: 70px;&quot;&gt;Red bull te da aaalaas&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;shadow=1;fontFamily=Lexend Deca;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLexend%2BDeca;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="240" y="785" width="940" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-41" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;Productos de Red Bull Energy Drinks&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="930" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-43" value="&lt;span style=&quot;font-weight: normal; font-size: 31px;&quot;&gt;Las latas de Red Bull son reconocidas por su diseño distintivo,&lt;/span&gt;&lt;div style=&quot;font-size: 31px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 31px;&quot;&gt;con colores vibrantes y el icónico logotipo de toro.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 31px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 31px;&quot;&gt;Son fácilmente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: initial; font-size: 31px;&quot;&gt;identificables y asociadas con energía y rendimiento&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=31;fontStyle=1;verticalAlign=middle;align=center;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="1003" width="890" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="LNRK3aASnY0LgrBdUQAr-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="409.5" y="310" width="601" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/49vvqHYs4A3Hk8zGxXZmOh/c9d35419eb2cbf998b8519c5da248243/DRES_AR_TROPICAL-250ml_ambient_front_redbullcom.png?h=680&amp;fm=webp&amp;q=90;fontSize=16;textShadow=1;" parent="LNRK3aASnY0LgrBdUQAr-4" vertex="1">
-          <mxGeometry y="110" width="150" height="388.06" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-8" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/7i1CdySFo6pTw50YDW5Qvt/ab7135449a405c83e35e54f9a896dc75/DRES_AR_SUMMER-CactusFruit-250ml_ambient_front_redbullcom.png?h=680&amp;fm=webp&amp;q=90;fontSize=16;textShadow=1;" parent="LNRK3aASnY0LgrBdUQAr-4" vertex="1">
-          <mxGeometry x="95" y="70.19999999999999" width="170" height="439.8" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-10" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/5PJzn25mMH5oVLZgFAUqDM/280394ae984e1cb75678ed720729091e/DRES_AR_RED-Watermelon-250ml_ambient_front_redbullcom.png?h=680&amp;fm=webp&amp;q=90;fontSize=16;textShadow=1;" parent="LNRK3aASnY0LgrBdUQAr-4" vertex="1">
-          <mxGeometry x="451" y="110" width="150" height="388.06" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-7" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/HOAyCPIEPyw8Z9eMejpFV/8a4aeb3c22b35a081197ab93e8c8aa43/DRES_AR_SUGARFREE-250ml_ambient_front_redbullcom.png?h=680&amp;fm=webp&amp;q=90;fontSize=16;textShadow=1;" parent="LNRK3aASnY0LgrBdUQAr-4" vertex="1">
-          <mxGeometry x="337" y="70.19999999999999" width="170" height="439.8" as="geometry" />
-        </mxCell>
-        <mxCell id="a02MxgG03ArspsyofswT-6" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/eyz1nHwgaDd9TKO6jslKD/1964dc02d78dc20fe267d864d5fabe14/DRES_AR_ED-250ml_cold_closed_front_redbullcom.png?w=315&amp;fm=webp&amp;q=90;fontSize=16;textShadow=1;" parent="LNRK3aASnY0LgrBdUQAr-4" vertex="1">
-          <mxGeometry x="189.5" width="201" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="LNRK3aASnY0LgrBdUQAr-9" value="" style="line;strokeWidth=3;html=1;fillColor=default;strokeColor=#CC1C4A;fillStyle=auto;gradientColor=none;shadow=1;labelBorderColor=none;textShadow=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="980" width="620" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
