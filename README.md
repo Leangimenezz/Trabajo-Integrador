@@ -1,6 +1,4 @@
-### Trabajo Integrador, pagina web de spotify 
-
-## Presentacion del trabajo
+### Presentacion del trabajo integrador 
 
 1. Cual es el objetivo principal de la pagina?
 Crear una nueva plataforma de streaming musical basada en Spotify que mejore la experiencia del usuario con una interfaz más intuitiva, funciones adicionales y mayor personalización. 
