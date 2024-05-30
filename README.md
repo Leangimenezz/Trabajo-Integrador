@@ -20,3 +20,35 @@
 9. Secciones de la pagina: 4 
 
 10. Herramienta utilizada para el wireframe: Canva e Illustraitor 
+
+11. Planes de spotify: 
+
+   1. **Spotify Free:**
+      - Acceso gratuito a millones de canciones con anuncios.
+      - Reproducción aleatoria y limitaciones en saltos de canciones.
+
+   2. **Spotify Premium Individual:**
+      - Sin anuncios.
+      - Reproducción sin conexión.
+      - Saltos ilimitados.
+      - Audio de alta calidad.
+
+   3. **Spotify Premium Duo:**
+      - Para dos personas que viven en la misma dirección.
+      - Sin anuncios.
+      - Reproducción sin conexión.
+      - Incluye Duo Mix, una playlist compartida.
+
+   4. **Spotify Premium Familiar:**
+      - Para hasta seis miembros que viven en la misma dirección.
+      - Sin anuncios.
+      - Reproducción sin conexión.
+      - Incluye Family Mix, una playlist compartida.
+      - Opción de control parental con Spotify Kids.
+
+   5. **Spotify Premium Estudiantes:**
+      - Descuento especial para estudiantes universitarios.
+      - Sin anuncios.
+      - Reproducción sin conexión.
+      - Saltos ilimitados.
+      - Audio de alta calidad.
