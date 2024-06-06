@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.parte-izquierda, .parte-derecha{
+    flex: 1;
+    position: relative;
+    color: white;
+    
+}
+.parte-izquierda{
+    background-color: #1ED760;
+    text-align: left;
+    font-family: sans-serif;
+    padding-left: 2px; 
+}
+.parte-derecha{
+background-color: #171717;
+   flex: 2;
+   text-align: center;
+}
+.contenido{
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    transform: translateX(-40);
+    width: 55%;
+}
+.small-image{
+    position: -webkit-sticky;
+    top: 10%;
+    left: 10px;
+    width: 150px;
+    height: fit-content; }
+
