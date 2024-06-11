@@ -4,7 +4,12 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+h1{
+    font-size: 30px;
+ }
+ h2{
+    font-size: 45px;
+ }
 .parte-izquierda, .parte-derecha{
     flex: 1;
     position: relative;
@@ -19,9 +24,13 @@ body{
 }
 .parte-derecha{
 background-color: #171717;
-   flex: 2;
+   flex: 3;
    text-align: center;
+   font-family: sans-serif;
 }
+
+
+
 .contenido{
     position: absolute;
     top: 5%;
@@ -36,3 +45,40 @@ background-color: #171717;
     width: 150px;
     height: fit-content; }
 
+
+    header {
+        background-color: #171717; 
+        padding: 0rem;
+        
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+        font-family: sans-serif;
+        transition: background-color 0.3s ease;
+        padding: 0.5rem 1rem; 
+        border-radius: 20px; 
+        border: 2px solid #1ED760; 
+        margin: 0 10px;
+    }
+    
+    header nav a:hover {
+        background-color: #0A9F38;
+    }
+    
+
+
+    form{
+        padding: 0px;
+        font-size: 15px;
+        
+    }
+
+   
