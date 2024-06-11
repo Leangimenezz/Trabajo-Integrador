@@ -23,7 +23,11 @@ h1{
     padding-left: 2px; 
 }
 .parte-derecha{
-background-color: #171717;
+   background-color: #171717;
+   background-image: url(IMG/Diseño\ sin\ título\ \(4\).png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    flex: 3;
    text-align: center;
    font-family: sans-serif;
