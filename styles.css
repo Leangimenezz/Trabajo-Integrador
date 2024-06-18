@@ -1,88 +1,158 @@
-body{
+/* Este CSS es de inicio */
+body {
+    background-color: #171717;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
-h1{
-    font-size: 30px;
- }
- h2{
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+h2 {
     font-size: 45px;
- }
-.parte-izquierda, .parte-derecha{
+    color: #fff;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.parte-izquierda, .parte-derecha {
     flex: 1;
     position: relative;
     color: white;
-    
 }
-.parte-izquierda{
+
+.parte-izquierda {
+    flex: 2.1;
     background-color: #1ED760;
     text-align: left;
     font-family: sans-serif;
-    padding-left: 2px; 
-}
-.parte-derecha{
-   background-color: #171717;
-   background-image: url(IMG/Diseño\ sin\ título\ \(4\).png);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   flex: 3;
-   text-align: center;
-   font-family: sans-serif;
+    display: flex;
 }
 
+.parte-derecha {
+    background-color: #171717;
+    background-image: url(IMG/Diseño\ sin\ título\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 6;
+    text-align: center;
+    font-family: sans-serif;
+}
 
-
-.contenido{
-    position: absolute;
+.contenido {
+    position: relative;
     top: 5%;
-    left: 23%;
-    transform: translateX(-40);
-    width: 55%;
+    left: 13%;
+    width: 70%;
 }
-.small-image{
+
+.small-image {
     position: -webkit-sticky;
-    top: 10%;
-    left: 10px;
-    width: 150px;
-    height: fit-content; }
+    width: 170px;
+    height: fit-content;
+}
+
+header {
+    background-color: #171717;
+    padding: 0rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 2px solid #1ED760;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    background-color: #0A9F38;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    width: 260px;
+}
+
+.button {
+    background-color: #171717;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    padding: 10px 30%;
+    border-radius: 35px;
+    border: 5px solid #171717;
+    margin: 10px 0%;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px 0%;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    width: 270px;
+}
+
+.register-button:hover {
+    background-color: black;
+}
+
+.register-button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.register-button span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Fin del CSS de inicio */
 
 
-    header {
-        background-color: #171717; 
-        padding: 0rem;
-        
-    }
-    
-    header nav {
-        display: flex;
-        justify-content: center;
-        
-    }
-    
-    header nav a {
-        color: #fff;
-        text-decoration: none;
-        font-family: sans-serif;
-        transition: background-color 0.3s ease;
-        padding: 0.5rem 1rem; 
-        border-radius: 20px; 
-        border: 2px solid #1ED760; 
-        margin: 0 10px;
-    }
-    
-    header nav a:hover {
-        background-color: #0A9F38;
-    }
-    
 
 
-    form{
-        padding: 0px;
-        font-size: 15px;
-        
-    }
 
-   
