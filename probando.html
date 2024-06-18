@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página web">
+    <meta name="author" content="Leandro Gimenez">
+    <title>Spotify - Sitio web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="IMG/222222.png" type="image/png">
+</head>
+<style>
+    /* Este CSS es de inicio */
+body {
+    background-color: #171717;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 45px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.parte-izquierda, .parte-derecha {
+    flex: 1;
+    position: relative;
+    color: white;
+}
+
+.parte-izquierda {
+    flex: 2.1;
+    background-color: #1ED760;
+    text-align: left;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.parte-derecha {
+    background-color: #171717;
+    background-image: url(IMG/Diseño\ sin\ título\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 6;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.contenido {
+    position: relative;
+    top: 5%;
+    left: 13%;
+    width: 70%;
+}
+
+.small-image {
+    position: -webkit-sticky;
+    width: 170px;
+    height: fit-content;
+}
+
+header {
+    background-color: #171717;
+    padding: 0rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 2px solid #1ED760;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    background-color: #0A9F38;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    width: 260px;
+}
+
+.button {
+    background-color: #171717;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    padding: 10px 30%;
+    border-radius: 35px;
+    border: 5px solid #171717;
+    margin: 10px 0%;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px 0%;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    width: 270px;
+}
+
+.register-button:hover {
+    background-color: black;
+}
+
+.register-button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.register-button span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Fin del CSS de inicio */
+
+
+
+
+
+body {
+            background-color: #171717;
+            color: white;
+            font-family: sans-serif;
+            font-size: 16px;
+            margin: 0; /* Elimina el margen predeterminado del body */
+            padding: 0; /* Elimina el padding predeterminado del body */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px; /* Añade un espacio interno al contenedor */
+        }
+        .section {
+            margin-bottom: 40px; /* Aumenta el espacio entre secciones */
+            text-align: center;
+            width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
+        }
+        .item {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .small-image {
+            width: 200px; /* Ajusta este valor según tus necesidades */
+            height: 200px; /* Hacer la altura igual al ancho para mantener la forma circular */
+            border-radius: 50%; /* Hace que las imágenes sean circulares */
+            margin: 10px;
+            object-fit: cover; /* Asegura que la imagen cubra completamente el área del contenedor circular */
+        }
+        .square-image {
+            width: 200px; /* Ancho fijo de la imagen */
+            height: 200px; /* Altura fija de la imagen */
+            object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
+        }
+        .caption {
+            font-size: 15px;
+            margin-top: 2px;
+        }
+</style>
+<body>
+    <div class="parte-izquierda">
+        <div class="contenido">
+            <img src="IMG/Spotify.png" alt="Spotify logo" class="small-image">
+            <h1>Regístrate y accede a tu música favorita</h1>
+            <p>Direccion de correo electronico</p>
+            <div class="container">
+                <input type="email" placeholder="nombre@dominio.com">
+                <button class="button">Siguiente</button>
+            </div>
+            <a href="https://example.com/" >Usa un número de teléfono en su lugar</a>
+
+            <a href="#" class="register-button">
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo">
+                Regístrate en Google
+            </a>
+            <a href="#" class="register-button">
+                <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook Logo">
+                Regístrate en Facebook
+            </a>
+            <a href="#" class="register-button">
+                <img src="IMG/Redes/Apple blanco.png" alt="Apple Logo">
+                Regístrate en Apple
+            </a>
+           <h3>Ya tienes una cuenta? <a href="https://example.com/">Inicia desde aquí.</a></h3>
+            <h4>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</h4>
+            <div class="container">
+               
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h1>Artistas populares de tu país</h1>
+            <div class="item">
+                <img src="IMG/Artistas/Bad bunny.png" alt="Bad bunny" class="small-image">
+                <div class="caption">Bad Bunny<br>Artista</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Artistas/Bizzarap.png" alt="Bizzarap" class="small-image">
+                <div class="caption">Bizzarap<br>Artista</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Artistas/Duki.png" alt="Duki" class="small-image">
+                <div class="caption">Duki<br>Artista</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Artistas/Eladio Carrion.png" alt="Eladio Carrion" class="small-image">
+                <div class="caption">Eladio Carrion<br>Artista</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Artistas/Emilia.png" alt="Emilia Mernes" class="small-image">
+                <div class="caption">Emilia Mernes<br>Artista</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Artistas/Feid.png" alt="Feid" class="small-image">
+                <div class="caption">Feid<br>Artista</div>
+            </div>
+        </div>
+        <div class="section">
+            <h1>Top álbumes Argentina</h1>
+            <div class="item">
+                <img src="IMG/Albumes/Un verano sin ti.png" alt="Un verano sin ti" class="square-image">
+                <div class="caption">Un verano sin ti<br>Bad Bunny</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Albumes/FERXXOCALIPSIS.png" alt="FERXXOCALIPSIS" class="square-image">
+                <div class="caption">FERXXOCALIPSIS<br>Feid</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Albumes/Nadie sabe lo que va a pasar mañana.png" alt="Nadie sabe lo que va a pasar mañana" class="square-image">
+                <div class="caption">Nadie sabe lo que va a pasar mañana<br>Bad Bunny</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Albumes/Que nos falte todo.png" alt="Que nos falte todo" class="square-image">
+                <div class="caption">Que nos falte todo<br> Luck Ra</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Albumes/Sol maria.png" alt="Sol maria" class="square-image">
+                <div class="caption">Sol Maria<br>Eladio Carrion</div>
+            </div>
+            <div class="item">
+                <img src="IMG/Albumes/Tu duo favorito.png" alt="Tu duo favorito" class="square-image">
+                <div class="caption">Tu dúo favorito<br>YSY A, Bhavi</div>
+            </div>
+        </div>
+    </div>
+    <div class="parte-derecha">
+        <div class="contenido">
+            <header>
+                <nav>
+                    <a href="#inicio">Inicio</a>
+                    <a href="2.Explorar.html">Explorar</a>
+                    <a href="3.Planes.html">Planes</a>
+                </nav>
+            </header>
+            <h2>Tu música, tu mundo</h2>
+            <p>En Spotify, cada canción te transporta a un mundo único de emociones y experiencias musicales, adaptándose a tu gusto personal.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
