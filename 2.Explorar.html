@@ -8,49 +8,91 @@
     <link rel="icon" href="IMG/222222.png" type="image/png">
     
     <style>
-        body {
-            background-color: #171717;
-            color: white;
-            font-family: sans-serif;
-            font-size: 16px;
-            margin: 0; /* Elimina el margen predeterminado del body */
-            padding: 0; /* Elimina el padding predeterminado del body */
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px; /* Añade un espacio interno al contenedor */
-        }
-        .section {
-            margin-bottom: 40px; /* Aumenta el espacio entre secciones */
-            text-align: center;
-            width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
-        }
-        .item {
-            display: inline-block;
-            margin: 10px;
-            text-align: center;
-        }
-        .small-image {
-            width: 200px; /* Ajusta este valor según tus necesidades */
-            height: 200px; /* Hacer la altura igual al ancho para mantener la forma circular */
-            border-radius: 50%; /* Hace que las imágenes sean circulares */
-            margin: 10px;
-            object-fit: cover; /* Asegura que la imagen cubra completamente el área del contenedor circular */
-        }
-        .square-image {
-            width: 200px; /* Ancho fijo de la imagen */
-            height: 200px; /* Altura fija de la imagen */
-            object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
-        }
-        .caption {
-            font-size: 15px;
-            margin-top: 2px;
-        }
+      body {
+    background-color: #171717;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el padding predeterminado del body */
+}
+
+header {
+    background-color: #171717;
+    padding: 1rem 0; /* Añadir un poco de espacio arriba y abajo */
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem; /* Tamaño de fuente */
+    padding: 0.5rem 2rem;
+    margin: 0 10px;
+    border-radius: 20px;
+    border: 2px solid #1ED760;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #0A9F38;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Añade un espacio interno al contenedor */
+}
+
+.section {
+    margin-bottom: 40px; /* Aumenta el espacio entre secciones */
+    text-align: center;
+    width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.small-image {
+    width: 200px; /* Ajusta este valor según tus necesidades */
+    height: 200px; /* Hacer la altura igual al ancho para mantener la forma circular */
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    margin: 10px;
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área del contenedor circular */
+}
+
+.square-image {
+    width: 200px; /* Ancho fijo de la imagen */
+    height: 200px; /* Altura fija de la imagen */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
+}
+
+.caption {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
     </style>
 </head>
 <body>
+    <header>
+        <header>
+            <nav>
+                <a href="1.Inicio.html">Inicio</a>
+                <a href="2.Explorar.html">Explorar</a>
+                <a href="3.Planes.html">Planes</a>
+                <a href="4.Acerca de.html">Acerca de</a>
+            </nav>
+        </header>
+    </header>
     <div class="container">
         <div class="section">
             <h1>Artistas populares de tu país</h1>
