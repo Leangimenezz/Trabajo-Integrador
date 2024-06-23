@@ -7,56 +7,131 @@
     <title>Spotify-Planes</title>
     <link rel="icon" href="IMG/222222.png" type="image/png">
     <style>
+        /* Estilos CSS para la página */
+        body {
+            background-color: #171717;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
         
- body{
-     background-color: #171717;
-     color: white;
-     text-align: center;
- }
+        header {
+            background-color: #171717;
+            padding: 1rem 0; /* Añadir un poco de espacio arriba y abajo */
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem; /* Tamaño de fuente */
+            padding: 0.5rem 2rem;
+            margin: 0 10px;
+            border-radius: 20px;
+            border: 2px solid #1ED760;
+            transition: background-color 0.3s ease;
+        }
+
+        header nav a:hover {
+            background-color: #0A9F38;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
         
-header {
-    background-color: #171717;
-    padding: 1rem 0; /* Añadir un poco de espacio arriba y abajo */
-}
+        .pricing-box {
+            width: 200px;
+            padding: 20px;
+            border: 2px solid #1DB954;
+            border-radius: 10px;
+            background-color: #171717;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
 
-header nav {
-    display: flex;
-    justify-content: center;
-}
+        .pricing-box h2 {
+            color: #1DB954;
+            font-size: 1.5em;
+        }
 
-header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem; /* Tamaño de fuente */
-    padding: 0.5rem 2rem;
-    margin: 0 10px;
-    border-radius: 20px;
-    border: 2px solid #1ED760;
-    transition: background-color 0.3s ease;
-}
+        .pricing-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-header nav a:hover {
-    background-color: #0A9F38;
-}
+        .pricing-box li {
+            margin: 10px 0;
+        }
 
+        .pricing-box li span {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
+    <!-- Encabezado de la página -->
     <header>
-        <header>
-            <nav>
-                <a href="1.Inicio.html">Inicio</a>
-                <a href="2.Explorar.html">Explorar</a>
-                <a href="3.Planes.html">Planes</a>
-                <a href="4.Acerca de.html">Acerca de</a>
-            </nav>
-        </header>
+        <nav>
+            <!-- Navegación principal -->
+            <a href="1.Inicio.html">Inicio</a>
+            <a href="2.Explorar.html">Explorar</a>
+            <a href="3.Planes.html">Planes</a>
+            <a href="4.Acerca de.html">Acerca de</a>
+        </nav>
     </header>
+
+    <!-- Contenido principal -->
     <div>
         <h1><img src="IMG/head logo dos.webp" alt="Icono" style="width: 80px; height: 80px; vertical-align: middle; margin-right: 0px;"> Planes premium</h1>
+        <h2>Planes accesibles para cada situación</h2>
+        <p>Elegí un plan premium y escuchá música sin anuncios y sin límites en tu teléfono, parlante y otros dispositivos. Accedé a varias formas de pago. Cancelá cuando quieras.</p>
+    </div>
 
-        <h2>Planes accesibles para cada situacion</h2>
-        <p>Elegi un plan premium y escucha musica sin anuncios y sin limites en tu telefono, parlante y otros dispositivos. accede a varias formas de pago. Cancela cuando quieras</p>
+    <!-- Contenedor de los planes -->
+    <div class="container">
+        <div class="pricing-box">
+            <h2>Plan Individual</h2>
+            <ul>
+                <li>• Una cuenta premium</li>
+                <li>• Cancelá cuando quieras</li>
+                <li>• Suscripción o un pago único</li>
+            </ul>
+        </div>
+        <div class="pricing-box">
+            <h2>Plan Dúo</h2>
+            <ul>
+                <li>• 2 cuentas premium</li>
+                <li>• Cancelá cuando quieras</li>
+                <li>• Suscripción o un pago único</li>
+            </ul>
+        </div>
+        <div class="pricing-box">
+            <h2>Plan Familiar</h2>
+            <ul>
+                <li>• Hasta 6 cuentas premium o Kids</li>
+                <li>• Controlá el contenido marcado como explícito</li>
+                <li>• Acceso a Spotify Kids</li>
+                <li>• Cancelá cuando quieras</li>
+                <li>• Suscripción o un pago único</li>
+            </ul>
+        </div>
+        <div class="pricing-box">
+            <h2>Plan Estudiantes</h2>
+            <ul>
+                <li>• 1 Cuenta premium</li>
+                <li>• Descuento para estudiantes que cumplen con los requisitos</li>
+                <li>• Suscripción o un pago único</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
